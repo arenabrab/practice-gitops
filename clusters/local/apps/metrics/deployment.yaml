@@ -25,6 +25,12 @@ spec:
               value: "mypassword"
             - name: SPRING_R2DBC_URL
               value: "r2dbc:postgresql://postgres:5432/mydb"
+            - name: SPRING_DATASOURCE_URL
+              value: "jdbc:postgresql://postgres:5432/mydb"
+            - name: SPRING_DATASOURCE_USERNAME
+              value: "postgres"
+            - name: SPRING_DATASOURCE_PASSWORD
+              value: "mypassword"
           resources:
             limits:
               memory: "512Mi"
