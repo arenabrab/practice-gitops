@@ -18,9 +18,13 @@ spec:
           image: barbanera/practice:latest
           ports:
             - containerPort: 8080
-#          env:
-#            - name: SPRING_PROFILES_ACTIVE
-#              value: "k8s"
+          env:
+            - name: SPRING_R2DBC_USERNAME
+              value: "postgres"
+            - name: SPRING_R2DBC_PASSWORD
+              value: "mypassword"
+            - name: SPRING_R2DBC_URL
+              value: "r2dbc:postgresql://postgres:5432/mydb"
           resources:
             limits:
               memory: "512Mi"
