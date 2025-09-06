@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: metrics
-          image: barbanera/metrics:latest
+          image: barbanera/practice:latest
           ports:
             - containerPort: 8080
 #          env:
