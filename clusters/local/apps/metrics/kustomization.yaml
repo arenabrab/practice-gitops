@@ -5,4 +5,4 @@ resources:
   - service.yaml
 images:
   - name: barbanera/metrics
-    newTag: master-12efeb4
+    newTag: master-fd5f537
