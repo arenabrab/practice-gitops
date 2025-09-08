@@ -4,5 +4,5 @@ resources:
   - deployment.yaml
   - service.yaml
 images:
-  - name: barbanera/practice
-    newTag: master-138e995
+  - name: barbanera/metrics
+    newTag: master-fd5f537
