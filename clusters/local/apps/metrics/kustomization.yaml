@@ -5,4 +5,4 @@ resources:
   - service.yaml
 images:
   - name: barbanera/practice
-    newTag: master-8c9aa73
+    newTag: master-1134b4b
