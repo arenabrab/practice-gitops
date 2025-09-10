@@ -5,4 +5,4 @@ resources:
   - service.yaml
 images:
   - name: barbanera/practice
-    newTag: master-2acdbfe
+    newTag: master-cfe2377
